@@ -1,7 +1,7 @@
 /*------------------------------------------
 -        SNAKE - "Jogo da Cobrinha"        -
 - Author: Diogo Santos Pombo - \Õ/ - @2026 -
---------------------------------------------*/
+-------------------------------------------*/
 
 package com.Snake.Snake;
 import javax.swing.*;
