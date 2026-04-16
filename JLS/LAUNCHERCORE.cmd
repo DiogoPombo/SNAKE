@@ -10,6 +10,7 @@
 @echo off
 setlocal enabledelayedexpansion
 
+::MODIFICADO
 set "APPNM=SNAKE"
 
 for /f "tokens=* delims=" %%a in ('chcp') do (
@@ -95,6 +96,7 @@ set "SOM2=%BASE%play2.vbs"
 set "APP_URL="
 set "SPACE= "
 
+::MODIFICADO
 set "JAVA_FILE_PATH=%BASE%..\target\Snake-0.0.1-SNAPSHOT.jar"
 
 if "%1"=="-s" (
@@ -183,7 +185,7 @@ call :pause_zero
 call :pause_zero
 call :pause_zero
 call :pause_zero
-::REMOVIDO
+::MODIFICADO
 ::wscript.exe "%SOM2%"
 color 0A
 call :pause_zero
